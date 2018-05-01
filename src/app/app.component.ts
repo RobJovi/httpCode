@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  public name = 'Robert Sanchez';
+  public nav = {
+    link1: 'Home',
+    link2: 'About',
+    link3: 'Tech Blogs'
+  };
 }
